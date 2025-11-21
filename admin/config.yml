@@ -1,0 +1,72 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "imagenes"
+public_folder: "/imagenes"
+
+collections:
+  - name: "pagina"
+    label: "Página Principal"
+    files:
+      - file: "_data/contenido.json"
+        label: "Contenido de la Página"
+        name: "contenido"
+        fields:
+          - {label: "Hero", name: "hero", widget: "object", fields: [
+              {label: "Imagen de Fondo", name: "image", widget: "image"},
+              {label: "Título", name: "title", widget: "string"}
+            ]}
+          - {label: "Último Lanzamiento", name: "latestRelease", widget: "object", fields: [
+              {label: "URL de YouTube (embed)", name: "youtubeUrl", widget: "string"},
+              {label: "Título", name: "title", widget: "string"},
+              {label: "Fecha de Lanzamiento", name: "releaseDate", widget: "string"},
+              {label: "Créditos", name: "credits", widget: "list", fields: [
+                  {label: "Rol", name: "role", widget: "string"},
+                  {label: "Nombre", name: "name", widget: "string"}
+              ]},
+              {label: "Dirección", name: "direction", widget: "string"},
+              {label: "Plataformas", name: "platforms", widget: "list", fields: [
+                  {label: "Nombre", name: "name", widget: "string"},
+                  {label: "URL", name: "url", widget: "string"}
+              ]}
+            ]}
+          - {label: "Música", name: "music", widget: "object", fields: [
+              {label: "Título de la sección", name: "title", widget: "string"},
+              {label: "Videos", name: "videos", widget: "list", fields: [
+                  {label: "URL de YouTube (embed)", name: "url", widget: "string"},
+                  {label: "Título del video", name: "title", widget: "string"}
+              ]},
+              {label: "URL 'Ver más'", name: "seeMoreUrl", widget: "string"}
+            ]}
+          - {label: "Colaboraciones", name: "collaborations", widget: "object", fields: [
+              {label: "Título de la sección", name: "title", widget: "string"},
+              {label: "Canciones", name: "tracks", widget: "list", fields: [
+                  {label: "Archivo de Audio", name: "audioSrc", widget: "file"},
+                  {label: "Imagen de Portada", name: "imageSrc", widget: "image"},
+                  {label: "Título", name: "title", widget: "string"},
+                  {label: "Artista", name: "artist", widget: "string"}
+              ]}
+            ]}
+          - {label: "Galería", name: "gallery", widget: "object", fields: [
+              {label: "Título de la sección", name: "title", widget: "string"},
+              {label: "Descripción", name: "description", widget: "string"},
+              {label: "Eventos", name: "events", widget: "list", fields: [
+                  {label: "Nombre del Evento", name: "name", widget: "string"},
+                  {label: "Imagen de Miniatura", name: "thumbnail", widget: "image"},
+                  {label: "Imágenes del Evento", name: "images", widget: "list", field: {label: "Imagen", name: "image", widget: "image"}}
+              ]}
+            ]}
+          - {label: "Redes Sociales", name: "social", widget: "object", fields: [
+              {label: "Imagen de Perfil", name: "profileImage", widget: "image"},
+              {label: "Nombre", name: "name", widget: "string"},
+              {label: "Título", name: "title", widget: "string"},
+              {label: "Biografía", name: "bio", widget: "string"},
+              {label: "Redes", name: "networks", widget: "list", fields: [
+                  {label: "Nombre de la Red", name: "name", widget: "string"},
+                  {label: "URL del Perfil", name: "url", widget: "string"}
+              ]}
+            ]}
+          - {label: "Pie de Página", name: "footer", widget: "object", fields: [
+              {label: "Email de Contacto", name: "contactEmail", widget: "string"}
+            ]}

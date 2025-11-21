@@ -1,0 +1,178 @@
+{
+  "hero": {
+    "image": "imagenes/IMG_1708.JPG",
+    "title": "TupacIGO"
+  },
+  "latestRelease": {
+    "youtubeUrl": "https://www.youtube.com/embed/nzE6lc2utKg",
+    "title": "me agobia - TupacIGO",
+    "releaseDate": "17 Oct 2025",
+    "credits": [
+      {
+        "role": "Beat, Mix y Master",
+        "name": "TupacIGO"
+      }
+    ],
+    "direction": "Dirección, video y color: <br>@mdinaph",
+    "platforms": [
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/watch?v=nzE6lc2utKg"
+      },
+      {
+        "name": "Spotify",
+        "url": "https://open.spotify.com/intl-es/track/3hXrI7kYeOUtQjT9EPKdXv?si=c98ec692dccb47d0"
+      }
+    ]
+  },
+  "music": {
+    "title": "🎧 Música Propia",
+    "videos": [
+      {
+        "url": "https://www.youtube.com/embed/nzE6lc2utKg",
+        "title": "me agobia - TupacIGO"
+      },
+      {
+        "url": "https://www.youtube.com/embed/5a1Yez0R_7Q",
+        "title": "Video 2"
+      },
+      {
+        "url": "https://www.youtube.com/embed/n0vIaR9pJqI",
+        "title": "Video 3"
+      },
+      {
+        "url": "https://www.youtube.com/embed/J0oXMZmGYaY",
+        "title": "Video 4"
+      }
+    ],
+    "seeMoreUrl": "https://www.youtube.com/@TupacIGO"
+  },
+  "collaborations": {
+    "title": "🎧 Mis participaciones en otros temas",
+    "tracks": [
+      {
+        "audioSrc": "audio/01. ZYGU x LAKU x TUPACIGO - DESTINADOS (Video Oficial).mp3",
+        "imageSrc": "imagenes/miniatura-destinados.jpg",
+        "title": "DESTINADOS",
+        "artist": "ZYGU x LAKU x TupacIGO"
+      },
+      {
+        "audioSrc": "audio/02. ZYGU x LAKU x TUPACIGO - RONDA (Video Oficial).mp3",
+        "imageSrc": "imagenes/miniatura-ronda.jpg",
+        "title": "RONDA",
+        "artist": "ZYGU x LAKU x TupacIGO"
+      },
+      {
+        "audioSrc": "audio/VOY CALLADO - TupacIGO, MAEL 55_11 (Visualizer).mp3",
+        "imageSrc": "imagenes/miniatura-voycallado.jpg",
+        "title": "VOY CALLADO",
+        "artist": "TupacIGO, MAEL 55_11"
+      },
+      {
+        "audioSrc": "audio/XL - TupacIGO, Pankky (prod. Puxhetta).mp3",
+        "imageSrc": "imagenes/miniatura-xl.jpg",
+        "title": "XL",
+        "artist": "TupacIGO, Pankky"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Galería de Eventos",
+    "description": "Elige un evento para ver las fotos",
+    "events": [
+      {
+        "name": "Evento 1",
+        "thumbnail": "imagenes/IMG_1708.JPG",
+        "images": [
+          "imagenes/IMG_1294.JPG",
+          "imagenes/IMG_1306.JPG",
+          "imagenes/IMG_1353.JPG",
+          "imagenes/IMG_1354.JPG",
+          "imagenes/IMG_1363.JPG",
+          "imagenes/IMG_1366.JPG",
+          "imagenes/IMG_1373.JPG",
+          "imagenes/IMG_1374.JPG",
+          "imagenes/IMG_1376.JPG",
+          "imagenes/IMG_1378.JPG",
+          "imagenes/IMG_1379.JPG",
+          "imagenes/IMG_1387.JPG",
+          "imagenes/IMG_1389.JPG",
+          "imagenes/IMG_1390.JPG",
+          "imagenes/IMG_1396.JPG",
+          "imagenes/IMG_1397.JPG",
+          "imagenes/IMG_1398.JPG",
+          "imagenes/IMG_1408.JPG",
+          "imagenes/IMG_1415.JPG",
+          "imagenes/IMG_1416.JPG",
+          "imagenes/IMG_1454.JPG",
+          "imagenes/IMG_1457.JPG",
+          "imagenes/IMG_1458.JPG",
+          "imagenes/IMG_1466.JPG",
+          "imagenes/IMG_1474.JPG",
+          "imagenes/IMG_1476.JPG",
+          "imagenes/IMG_1477.JPG",
+          "imagenes/IMG_1478.JPG",
+          "imagenes/IMG_1480.JPG",
+          "imagenes/IMG_1482.JPG",
+          "imagenes/IMG_1511.JPG",
+          "imagenes/IMG_1512.JPG",
+          "imagenes/IMG_1515.JPG",
+          "imagenes/IMG_1521.JPG",
+          "imagenes/IMG_1523.JPG",
+          "imagenes/IMG_1527.JPG",
+          "imagenes/IMG_1540.JPG",
+          "imagenes/IMG_1553.JPG",
+          "imagenes/IMG_1555.JPG",
+          "imagenes/IMG_1600.JPG",
+          "imagenes/IMG_1603.JPG",
+          "imagenes/IMG_1612.JPG",
+          "imagenes/IMG_1613.JPG",
+          "imagenes/IMG_1655.JPG",
+          "imagenes/IMG_1665.JPG",
+          "imagenes/IMG_1680.JPG",
+          "imagenes/IMG_1681.JPG",
+          "imagenes/IMG_1688.JPG",
+          "imagenes/IMG_1707.JPG",
+          "imagenes/IMG_1708.JPG"
+        ]
+      },
+      {
+        "name": "Evento 2",
+        "thumbnail": "imagenes/IMG_1708.JPG",
+        "images": []
+      },
+      {
+        "name": "Evento 3",
+        "thumbnail": "imagenes/IMG_1708.JPG",
+        "images": []
+      }
+    ]
+  },
+  "social": {
+    "profileImage": "imagenes/perfil.jpg",
+    "name": "TupacIGO",
+    "title": "Artista / Compositor",
+    "bio": "Artista argentino | Música independiente",
+    "networks": [
+      {
+        "name": "Spotify",
+        "url": "https://open.spotify.com/intl-es/artist/54xerK2CkCQNPrdJlUNE4x"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/@TupacIGO"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/tupac_igo/"
+      },
+      {
+        "name": "TikTok",
+        "url": "https://www.tiktok.com/@tupac.igo"
+      }
+    ]
+  },
+  "footer": {
+    "contactEmail": "falta mail"
+  }
+}
