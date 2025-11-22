@@ -1,5 +1,5 @@
 [[plugins]]
-  package = "@netlify/plugin-nextgen-formats"
+  package = "netlify-plugin-image-optim"
 
 [build]
   publish = "."
