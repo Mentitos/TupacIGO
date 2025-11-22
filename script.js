@@ -98,7 +98,7 @@ function render(data) {
         galleryGrid.innerHTML = '';
         data.gallery.events.forEach(event => {
             const galleryItem = document.createElement('a');
-            galleryItem.href = 'gallery.html';
+            galleryItem.href = `gallery.html?event=${encodeURIComponent(event.name)}`;
             galleryItem.classList.add('gallery-item');
             galleryItem.innerHTML = `
                 <img src="${event.thumbnail}" alt="${event.name}">
@@ -492,7 +492,7 @@ function initEventGallery(galleryData) {
         item.addEventListener('click', (e) => {
             e.preventDefault();
             const imgEl = item.querySelector('img');
-            const src = imgEl ? imgEl.getAttribute('src') : null;
+            const src = imgEl ? imgEl.getAttribute('src').replace(/\\/g, '/') : null;
             const startIndex = src ? allImgs.indexOf(src) : 0;
             openGallery(startIndex);
         });
