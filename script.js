@@ -492,7 +492,7 @@ function initEventGallery(galleryData) {
         item.addEventListener('click', (e) => {
             e.preventDefault();
             const imgEl = item.querySelector('img');
-            const src = imgEl ? imgEl.getAttribute('src').replace(/\/g, '/') : null;
+            const src = imgEl ? imgEl.getAttribute('src') : null;
             const startIndex = src ? allImgs.indexOf(src) : 0;
             openGallery(startIndex);
         });
