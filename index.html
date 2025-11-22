@@ -8,6 +8,7 @@
     <meta property="og:title" content="TupacIGO - Artista Musical">
     <meta property="og:description" content="Descubre la música de TupacIGO, un artista único. Conoce sus canciones, proyectos y síguelo en sus redes sociales.">
     <meta property="og:type" content="website">
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -315,5 +316,16 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
 </body>
 </html>
